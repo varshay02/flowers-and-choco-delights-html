@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+header .contact-info {
+    font-size: 14px;
+}
+
+#hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#hero .hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#hero h1 {
+    font-size: 3em;
+    margin: 0 0 20px;
+}
+
+#hero p {
+    font-size: 1.5em;
+}
+
+#hero .cta-buttons {
+    margin-top: 20px;
+}
+
+#hero .cta-buttons a {
+    text-decoration: none;
+    color: white;
+    background-color: #f04e23;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+    transition: background-color 0.3s;
+}
+
+#hero .cta-buttons a:hover {
+    background-color: #c03d19;
+}
+
+#services, #about, #contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#services .container, #about .container, #contact .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#services h2, #about h2, #contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#services .service-item {
+    margin-bottom: 20px;
+}
+
+#services .service-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#services .service-item h3 {
+    font-size: 1.8em;
+    margin-top: 10px;
+}
+
+#services .service-item p {
+    font-size: 1.2em;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact label {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact button {
+    background-color: #f04e23;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#contact button:hover {
+    background-color: #c03d19;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+footer .social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer .social-media a:hover {
+    color: #f04e23;
+}
